@@ -74,6 +74,10 @@ public class MainActivity extends AppCompatActivity {
             finish();
             Toast.makeText(MainActivity.this,"Logged In as Admin",Toast.LENGTH_SHORT).show();
        }
+ else
+       {
+           Toast.makeText(MainActivity.this,"Incorrect Credentials",Toast.LENGTH_SHORT).show();
+       }
        if((!email.equals("admin@gmail.com")) && (!password.equals("admin123"))) {
            //Authenticate the user
            //Authenticate user
