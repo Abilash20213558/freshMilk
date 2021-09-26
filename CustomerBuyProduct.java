@@ -145,7 +145,7 @@ public class CustomerBuyProduct extends AppCompatActivity {
         return mime.getExtensionFromMimeType(cR.getType(uri));
     }
 
-    //Upload Data to firebase
+    //Upload Data to the firebase 
     private void uploadFile() {
         String imageName = System.currentTimeMillis() + ".jpeg";
         //Storage Reference
@@ -197,4 +197,4 @@ public class CustomerBuyProduct extends AppCompatActivity {
 
 
 }
-hello
+
