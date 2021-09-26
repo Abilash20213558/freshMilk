@@ -41,7 +41,7 @@ public class CustommerProductList extends AppCompatActivity {
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#b7bd04")));
         getWindow().setStatusBarColor(this.getResources().getColor(R.color.second));
 
-        productList =new ArrayList<>();
+        productList =new ArrayList<>(); //product list
 
         databaseReference = FirebaseDatabase.getInstance().getReference("admin_products");
 
