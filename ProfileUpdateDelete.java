@@ -49,7 +49,7 @@ public class ProfileUpdateDelete extends AppCompatActivity {
     ImageView imgUserPic;
     FirebaseAuth fauth;
     FirebaseFirestore fstore;
-    FirebaseUser user;
+    FirebaseUser fuser;
     StorageReference storageReference;
     String userId;
     private Uri mImageUri;
