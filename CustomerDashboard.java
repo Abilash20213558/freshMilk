@@ -20,7 +20,7 @@ public class CustomerDashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer_dashboard);
 
-        productList = findViewById(R.id.list_product);
+        productList = findViewById(R.id.list_product); //Finding product list 
         myOrder = findViewById(R.id.my_orders);
         profile = findViewById(R.id.viewProfile);
         logOut = findViewById(R.id.logout);
@@ -63,4 +63,3 @@ public class CustomerDashboard extends AppCompatActivity {
 
     }
 }
-hello
