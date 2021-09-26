@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:src="@drawable/success" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:fontFamily="monospace"
+        android:text="PAYMENT SUCCESS!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:text="The Payment Receipt will be sent to your G-mail"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="GO TO HOME"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+
+
+</LinearLayout>
