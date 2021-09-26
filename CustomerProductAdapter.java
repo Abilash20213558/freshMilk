@@ -87,7 +87,7 @@ public class CustomerProductAdapter extends RecyclerView.Adapter<CustomerProduct
             text_unitPrice = itemView.findViewById(R.id.cusUnitPrice);
             text_description = itemView.findViewById(R.id.cusDescription);
             imageView_Product = itemView.findViewById(R.id.CusImage);
-            btnBuy = itemView.findViewById(R.id.btn_buy);
+            btnBuy = itemView.findViewById(R.id.btn_buy);   // Buy products 
 
         }
 
