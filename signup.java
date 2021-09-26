@@ -38,10 +38,10 @@ public class signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        signUpBtn = findViewById(R.id.btn_signUp);
-        signInBtn = findViewById(R.id.btn_signIn);
-        mName = findViewById(R.id.et_name);
-        mEmail = findViewById(R.id.et_emailId);
+        signupBtn = findViewById(R.id.btn_signUp);
+        signinBtn = findViewById(R.id.btn_signIn);
+        mNam = findViewById(R.id.et_name);
+        mEmai = findViewById(R.id.et_emailId);
         mPwd = findViewById(R.id.et_password);
         mConfirmPwd = findViewById(R.id.et_confirmPassword);
 
@@ -55,7 +55,7 @@ public class signup extends AppCompatActivity {
         }
 
         //Login Btn
-        signInBtn.setOnClickListener(new View.OnClickListener() {
+        signinBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
@@ -64,12 +64,12 @@ public class signup extends AppCompatActivity {
 
 
         //Signup Btn
-        signUpBtn.setOnClickListener(new View.OnClickListener() {
+        signupBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final String email = mEmail.getText().toString().trim();
+                final String email = mEmai.getText().toString().trim();
                 final String password = mPwd.getText().toString().trim();
-                final String name = mName.getText().toString().trim();
+                final String name = mNam.getText().toString().trim();
                 final String confirmPwd = mConfirmPwd.getText().toString().trim();
 
                 //set the error if the fields are empty
