@@ -28,7 +28,7 @@ public class signup extends AppCompatActivity {
 
     public static final String TAG = "TAG";
     Button signUpBtn, signInBtn;
-    EditText mName, mEmail, mPwd, mConfirmPwd;
+    EditText mmName, mEmail, mPwd, mConfirmPwd;
     FirebaseAuth fauth;
     FirebaseFirestore fstore;
     String userID;
