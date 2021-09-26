@@ -42,7 +42,7 @@ public class MyOrders extends AppCompatActivity {
         getWindow().setStatusBarColor(this.getResources().getColor(R.color.second));
 
 
-        productList =new ArrayList<>();
+        productList =new ArrayList<>(); //new product list
 
         databaseReference = FirebaseDatabase.getInstance().getReference("my_orders");
 
